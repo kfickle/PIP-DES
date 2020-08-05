@@ -7,7 +7,7 @@ PIP **D**evelopment **E**nvironment **S**etup is a collection of node.js package
 ### Github Desktop
 Download and install the latest version of <a href="https://desktop.github.com/">Github Desktop</a>
 
-Note: if you already have this installed, check that you're running version 2.5.3 by opening the program and opening "About Github Desktop" under the help menu located in the menu bar at the top of the window. 
+**Already have Github Desktop installed?** Check that you're running version 2.5.3 by opening the program and opening "About Github Desktop" under the help menu located in the menu bar at the top of the window. 
 
 
 ### Atom 
