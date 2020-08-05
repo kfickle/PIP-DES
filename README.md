@@ -16,7 +16,7 @@ Download and install the lastest version of <a href="https://atom.io/" target="_
 ### Node.js
 Get the latest stable release of <a href="https://nodejs.org/en/download/" target="_blank">Node.js, v12.18.3 available for Windows/macOS/Linux (includes npm 6.14.6) </a>
 
-Note: There are other versions available. If you have an older system (or a system based on 32-bit integers), you may need the 32-bit version.
+Note: If you have an older system (or a system based on 32-bit integers), you may need to opt for the 32-bit version.
 
 #### Node Installation Tips
 
