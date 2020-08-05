@@ -1,7 +1,9 @@
 /*
 
-Author: Ray Villalobos
-Sass Essential Training Repo for the full course files and materials 
+Original file by Ray Villalobos
+
+This file has been adapted from the SassEssential Training course offered by Lynda.com
+
 https://github.com/planetoftheweb/sassEssentials.git
 
 */
@@ -9,6 +11,7 @@ https://github.com/planetoftheweb/sassEssentials.git
 const gulp = require("gulp"),
   sass = require("gulp-sass"),
   sourcemaps = require("gulp-sourcemaps"),
+  autoprefixer = require('gulp-autoprefixer'),
   browserSync = require("browser-sync").create(),
   source = "./src/",
   dest = "./dst/";
@@ -27,6 +30,7 @@ function styles() {
   return gulp
     .src(source + "sass/style.scss")
     .pipe(sourcemaps.init())
+	.pipe(autoprefixer())
     .pipe(
       sass({
         sourcemap: true,
