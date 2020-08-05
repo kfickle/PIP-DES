@@ -1,4 +1,4 @@
-/* while our gulp task is running, it will automatically compile this file into pure css, will relevant vendor prefixes! The finished file is located under dst/css/style.css */
+/* while our gulp task is running, it will automatically compile our sass file into pure css, will relevant vendor prefixes! The finished file is located under dst/css/style.css */
 .cool-prefix-magic {
   display: grid;
   transition: all .5s;
