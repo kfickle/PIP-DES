@@ -21,13 +21,13 @@ Note: If you have an older system (or a system based on 32-bit integers), you ma
 #### Node Installation Tips
 
 **1.** After agreeing to to the licensing agreement, the installer will prompt you for the installation location. 
-  -> Leave the default location, unless you have a specific need to install it somewhere else.
+ <br> -> Leave the default location, unless you have a specific need to install it somewhere else.
 
 **2** The install wizard will allow you to select components to include or remove from the installation. 
-  -> Again, unless you have a specific need, accept the defaults.
+  <br> -> Again, unless you have a specific need, accept the defaults.
 
 **3** When prompted to automatically install additional dependencies (python and <a href="https://chocolatey.org/packages/nodejs">chocolatey</a>)
-  -> I would encourage allowing node to handle this for you, unless you have a specific reason to do so manually. 
+ <br>  -> I would encourage allowing node to handle this for you, unless you have a specific reason to do so manually. 
 
 
 #### Verify Installation
