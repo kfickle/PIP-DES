@@ -4,8 +4,10 @@ https://nodejs.org/en/download/
 
 
 Download the project starting files from Github, and place them in an easily accessible directory in your system. 
+
 For example, I typically use XAMPP as my cross-platform apache localhost web server solution, so I would type in 
 something like cd C:\xampp\htdocs\projects\PIP
 
 Run the following command to ensure 
 npm install gulp-cli -g
+
