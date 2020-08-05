@@ -26,7 +26,7 @@ Note: If you have an older system (or a system based on 32-bit integers), you ma
 **2** The install wizard will allow you to select components to include or remove from the installation. 
   <br> -> Again, unless you have a specific need, accept the defaults.
 
-**3** When prompted to automatically install additional dependencies (python and <a href="https://chocolatey.org/packages/nodejs">chocolatey</a>)
+**3** The install wizard will ask to install additional dependencies (python and <a href="https://chocolatey.org/packages/nodejs">chocolatey</a>) automatically.
  <br>  -> I would encourage allowing node to handle this for you, unless you have a specific reason to do so manually. 
 
 
