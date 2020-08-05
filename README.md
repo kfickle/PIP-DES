@@ -1,6 +1,6 @@
 # PIP-DES
 
-PIP **D**evelopment **E**nvironment **S**etup is a collection of node.js packages, base files and other recommended software for the Party in the Party project. For project configurations and development dependencies, please refer to the "devDependencies" section in the package.json file located in the root directory of this repo.
+PIP **D**evelopment **E**nvironment **S**etup is a collection of node.js packages, files and other recommended software for the Party in the Party project. For project configurations and development dependencies, please refer to the "devDependencies" section in the package.json file located in the root directory of this repo.
 
 ## Installation
 
