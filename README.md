@@ -27,7 +27,7 @@ Note: If you have an older system (or a system based on 32-bit integers), you ma
   <br> -> Again, unless you have a specific need, accept the defaults.
 
 **3** The install wizard will ask to install additional dependencies (python and <a href="https://chocolatey.org/packages/nodejs">chocolatey</a>) automatically.
- <br>  -> I would encourage letting node to handle this for you, unless you have a specific reason to install these files manually. 
+ <br>  -> I would encourage letting node handle this for you, unless you have a specific reason to install these files manually. 
 
 
 #### Verify Installation
