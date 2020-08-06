@@ -47,7 +47,7 @@ npm –v
 
 2. Run ```npm install gulp-cli -g``` to ensure you have access to the gulp Command Line Interface within the project directory--this won't install gulp globally on your system, but it allows you to interact with gulp via the command line in the directory as though it's a global program. Pretty neat stuff!
 
-3. Run the default gulp.js task by typing ```gulp``` into bash/terminal/command line--our task has been configured to manually compile sass files, add css vendor prefixes, refresh using BrowserSync when you make changes to project source files, and recompile automatically when you save changes in the text editor.
+3. Run the default gulp.js task by typing ```gulp``` into bash/terminal/command line--our task has been configured to automatically compile sass files, add css vendor prefixes, refresh using BrowserSync when source files change, and recompile automatically when you save changes in the text editor.
 
 
 That's about it! We can always adjust our gulp task and directory structure as needed throughout the project, but to start things off our source files are located under "src" and our production files are located under "dst" 
