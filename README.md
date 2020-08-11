@@ -13,7 +13,7 @@ Download and install the latest version of <a href="https://desktop.github.com/"
 Download and install the lastest version of <a href="https://atom.io/" target="_blank"> Atom text editor (v1.49.0 available for Windows/macOS/Linux)</a>
 
 ### XAMPP Apache Web Server
-Download and install <a href="https://www.apachefriends.org/download.html"> XAMPP Version 7.3.20 / PHP 7.3.20 </a> <br> Note: if you use the download button for your respective platform (Linux, Windows, Mac, etc.) the site should automatically give you a compatiable install package for you operating system version.)
+Download and install <a href="https://www.apachefriends.org/download.html"> XAMPP Version 7.3.20 / PHP 7.3.20 </a> <br> *If you use the download button for your respective platform (Linux, Windows, Mac, etc.) the site should automatically give you a compatiable install package for your operating system version.*
 
 #### XAMPP Installation Tips
 
