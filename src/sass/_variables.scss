@@ -2,19 +2,17 @@
 
 @import url();
 
-$font-main: ;
+$font-main:;
 
 // Set Color Palette Variables
-$light-teal:        #00C1B9;
-$dark-blue:         #2C1449;
-$blue-magenta:		#4D1598;
-$medium-violet:     #CB20CB;
-$white:				#fff;
-$grey:				#B1B1B1;
 
+$light-teal: 	#00C1B9;
+$dark-purple: 	#2C1449;
+$blue-purple:	#4D1598;
 
-//breakpoints
+// medium-purple is the color used as various shades to create the background color for sections of the site. Reference "Jobs/Volunteer", "Services", and "Deals" nav items on the homepage mockup for usage examples.
 
-$small:		450px;
-$medium:	760px;
-$large:		1200px;
+$medium-purple: #6C18A5;
+$dark-magenta: 	#CB20CB;
+$white:			#fff;
+$silver: 		#B1B1B1;
