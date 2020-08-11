@@ -12,6 +12,12 @@ Download and install the latest version of <a href="https://desktop.github.com/"
 ### Atom 
 Download and install the lastest version of <a href="https://atom.io/" target="_blank"> Atom text editor (v1.49.0 available for Windows/macOS/Linux)</a>
 
+### XAMPP Apache Web Server
+Download and install <a href="https://www.apachefriends.org/download.html"> XAMPP Version 7.3.20 / PHP 7.3.20 </a> (use the download button for your platform, and it should automatically give you a compatiable install package for you operating system version.)
+
+![xampp components to install](https://raw.githubusercontent.com/kfickle/images/34536f1bbf01ae2ea4d17a0d3634cd9df55b3514/xampp-components.PNG)
+
+
 ### Node.js
 Get the latest stable release of <a href="https://nodejs.org/en/download/" target="_blank">Node.js, v12.18.3 available for Windows/macOS/Linux (includes npm 6.14.6) </a>
 
@@ -46,7 +52,7 @@ Also verify that npm installed sucessfully by entering:
 
 2. Run ```npm install gulp-cli -g``` to ensure you have access to the gulp Command Line Interface within the project directory--this won't install gulp globally on your system, but it allows you to interact with gulp via the command line in the directory as though it's a global program. Pretty neat stuff!
 
-3. Run the default gulp.js task by typing ```gulp``` into bash/terminal/command line--our task has been configured to automatically compile sass files, add css vendor prefixes, refresh using BrowserSync when source files change, and recompile automatically when you save changes in the text editor.
+3. Run the default gulp task by typing ```gulp``` into bash/terminal/command line--our task has been configured to automatically compile sass files to plan css, add vendor prefixes, minify our stylesheets, concatenate our scripts, and rerun those subtasts automatically when you save changes in the text editor.
 
 
 That's about it! We can always adjust our gulp task and directory structure as needed throughout the project, but to start things off our source files are located under "src" and our production files are located under "dst" 
