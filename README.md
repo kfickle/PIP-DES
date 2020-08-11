@@ -32,17 +32,17 @@ Note: If you have an older system (or a system based on 32-bit integers), you ma
 #### Verify Installation
 Open a command prompt (or PowerShell), and enter the following:
 
-node –v
+```node –v```
 
 The system should display the Node.js version installed on your system. 
 
 Also verify that npm installed sucessfully by entering:
 
-npm –v
+```npm –v```
 
 ## Quick Start
 
-1. After downloading these base files to your system, cd into your project directory using bash/terminal/command line. <br>  (*For example, I typically use XAMPP as my cross-platform apache web server solution, so I would type in something like <br>``` cd C:\xampp\htdocs\projects\PIP ```*)
+1. After downloading these base files to your system, cd into your project directory using bash/terminal/command line. <br> i.e. ``` cd C:\parent-directory\project-directory\project-folder ``` *)
 
 2. Run ```npm install gulp-cli -g``` to ensure you have access to the gulp Command Line Interface within the project directory--this won't install gulp globally on your system, but it allows you to interact with gulp via the command line in the directory as though it's a global program. Pretty neat stuff!
 
