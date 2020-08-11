@@ -5,15 +5,13 @@ This repository is a collection of node.js packages, starter files, and recommen
 ## Software Requirements (and recommendations)
 
 ### Github Desktop
-Download and install the latest version of <a href="https://desktop.github.com/">Github Desktop</a>
-
-**Already have Github Desktop installed?** Check that you're running version 2.5.3 by opening the program and opening "About Github Desktop" under the help menu located in the menu bar at the top of the window. 
+Download <a href="https://desktop.github.com/">Github Desktop</a>
 
 ### Recommended Text Editor: Atom 
-Download and install the lastest version of <a href="https://atom.io/" target="_blank"> Atom text editor (v1.49.0 available for Windows/macOS/Linux)</a>
+Download the lastest version of <a href="https://atom.io/" target="_blank"> Atom text editor (v1.49.0 available for Windows/macOS/Linux)</a>
 
 ### XAMPP Apache Web Server
-Download and install <a href="https://www.apachefriends.org/download.html"> XAMPP Version 7.3.20 / PHP 7.3.20 </a> <br> *If you use the download button for your respective platform (Linux, Windows, Mac, etc.) the site should automatically give you a compatiable install package for your operating system version.*
+Download <a href="https://www.apachefriends.org/download.html"> XAMPP Version 7.3.20 / PHP 7.3.20 </a> <br> *If you use the download button for your respective platform (Linux, Windows, Mac, etc.) the site should automatically give you a compatiable install package for your operating system version.*
 
 #### XAMPP Installation Tips
 
@@ -28,7 +26,7 @@ Download and install <a href="https://www.apachefriends.org/download.html"> XAMP
 **4.** (on Windows OS, cont.) Once you're prompted to select an install location, select the root of your C:\ drive, rather than your programs folder. This should correct the permissions limitations. i.e ```C:\xampp```
 
 ### Node.js
-Get the latest stable release of <a href="https://nodejs.org/en/download/" target="_blank">Node.js, v12.18.3 available for Windows/macOS/Linux (includes npm 6.14.6) </a>
+Get the latest *stable* release of <a href="https://nodejs.org/en/download/" target="_blank">Node.js, v12.18.3 available for Windows/macOS/Linux (includes npm 6.14.6) </a>
 
 Note: If you have an older system (or a system based on 32-bit integers), you may need to opt for the 32-bit version.
 
