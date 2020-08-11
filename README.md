@@ -9,7 +9,7 @@ Download and install the latest version of <a href="https://desktop.github.com/"
 
 **Already have Github Desktop installed?** Check that you're running version 2.5.3 by opening the program and opening "About Github Desktop" under the help menu located in the menu bar at the top of the window. 
 
-### Atom 
+### Recommended Text Editor: Atom 
 Download and install the lastest version of <a href="https://atom.io/" target="_blank"> Atom text editor (v1.49.0 available for Windows/macOS/Linux)</a>
 
 ### XAMPP Apache Web Server
