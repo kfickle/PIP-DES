@@ -1,6 +1,6 @@
 # PIP-DES
 
-PIP **D**evelopment **E**nvironment **S**etup is a collection of node.js packages, starter files, and directory structure for the PIP project. For a breakdown of project configurations and development dependencies, please refer to the "devDependencies" section in the package.json file located in the root directory of this repo.
+This repository is a collection of node.js packages, starter files, and recommended software for the PIP project. 
 
 ## Software Requirements (and recommendations)
 
@@ -13,10 +13,19 @@ Download and install the latest version of <a href="https://desktop.github.com/"
 Download and install the lastest version of <a href="https://atom.io/" target="_blank"> Atom text editor (v1.49.0 available for Windows/macOS/Linux)</a>
 
 ### XAMPP Apache Web Server
-Download and install <a href="https://www.apachefriends.org/download.html"> XAMPP Version 7.3.20 / PHP 7.3.20 </a> (use the download button for your platform, and it should automatically give you a compatiable install package for you operating system version.)
+Download and install <a href="https://www.apachefriends.org/download.html"> XAMPP Version 7.3.20 / PHP 7.3.20 </a> <br> Note: if you use the download button for your respective platform (Linux, Windows, Mac, etc.) the site should automatically give you a compatiable install package for you operating system version.)
+
+#### XAMPP Installation Tips
+
+**1.** If you have an antivirus running, you may receive a warning about it impacting the installation wizard. This typically isn't an issue, so it's fine to proceed with the antivirus enabled. 
+
+**2.** (on Windows OS) If the install wizard warns you about UAC permissions, proceed to the next screen. We'll correct this in step 4.
+
+**3.** When asked to select components, select "Apache", "MySQL", "PHP" and "phpMyAdmin". You're welcome to install anything else you'll make use of, but these are the base files that make XAMPP useful as a PHP development environment for dynamic and static projects. 
 
 ![xampp components to install](https://raw.githubusercontent.com/kfickle/images/34536f1bbf01ae2ea4d17a0d3634cd9df55b3514/xampp-components.PNG)
 
+**4.** (on Windows OS, cont.) Once you're prompted to select an install location, select the root of your C:\ drive, rather than your programs folder. This should correct the permissions limitations. i.e ```C:\xampp```
 
 ### Node.js
 Get the latest stable release of <a href="https://nodejs.org/en/download/" target="_blank">Node.js, v12.18.3 available for Windows/macOS/Linux (includes npm 6.14.6) </a>
