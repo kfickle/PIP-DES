@@ -1,66 +1,46 @@
-/*
+const {src, watch,  dest,  series,  parallel} = require('gulp');
 
-Original file by Ray Villalobos
+const autoprefixer = require('autoprefixer');
+const cssnano = require('cssnano');
+const concat = require('gulp-concat');
+const postcss = require('gulp-postcss');
+const sass = require('gulp-sass');
+const sourcemaps = require('gulp-sourcemaps');
+const uglify = require('gulp-uglify');
 
-This file has been adapted from the SassEssential Training course offered by Lynda.com
-
-https://github.com/planetoftheweb/sassEssentials.git
-
-*/
-
-const gulp = require("gulp"),
-  sass = require("gulp-sass"),
-  sourcemaps = require("gulp-sourcemaps"),
-  autoprefixer = require('gulp-autoprefixer'),
-  browserSync = require("browser-sync").create(),
-  source = "./src/",
-  dest = "./dst/";
-
-sass.compiler = require("node-sass");
-
-function html() {
-  return gulp.src(dest + "**/*.html");
+// file paths used for pipe method and pushing data through the writable data stream
+const files = {
+    sassPath: 'src/sass/**/*.scss',
+    jsPath: 'src/scripts/**/*.js'
 }
 
-function js() {
-  return gulp.src(dest + "**/*.js");
+// sass compile, maping, and minification
+
+function sassTask() {
+    return src(files.sassPath)
+        .pipe(sourcemaps.init())
+        .pipe(sass())
+        .pipe(postcss([autoprefixer(), cssnano()]))
+        .pipe(sourcemaps.write('.'))
+        .pipe(dest('dist/css'));
 }
 
-function styles() {
-  return gulp
-    .src(source + "sass/style.scss")
-    .pipe(sourcemaps.init())
-	.pipe(autoprefixer())
-    .pipe(
-      sass({
-        sourcemap: true,
-        style: "compressed"
-      }).on("error", sass.logError)
-    )
-    .pipe(gulp.dest(dest + "css"));
+// javascript file merge automation
+function jsTask() {
+    return src(files.jsPath)
+        .pipe(concat('main.js'))
+        .pipe(uglify())
+        .pipe(dest('dist/js'));
 }
 
-function watch() {
-  gulp.watch(dest + "js/**/*.js", js).on("change", browserSync.reload);
-  gulp.watch(source + "sass/**/*", styles).on("change", browserSync.reload);
-  gulp.watch(dest + "index.html", html).on("change", browserSync.reload);
+
+// monitoring & rerunning tasks
+function monitorTask() {
+    watch([files.sassPath, files.jsPath], parallel(sassTask, jsTask));
 }
 
-function server() {
-  browserSync.init({
-    notify: false,
-    server: {
-      baseDir: dest
-    }
-  });
-
-  gulp
-    .watch(source + "sass/**/*.scss", styles)
-    .on("change", browserSync.reload);
-  gulp.watch(dest + "js/**/*.js", js).on("change", browserSync.reload);
-  gulp.watch(dest + "index.html", html).on("change", browserSync.reload);
-}
-
-var build = gulp.series(gulp.parallel(js, styles, html), server, watch);
-
-gulp.task("default", build);
+// enables task running via the command line
+exports.default = series(
+    parallel(sassTask, jsTask),
+    monitorTask
+);
