@@ -19,7 +19,11 @@ This repository is a collection of node.js packages, starter files, and recommen
 
 **1.** If you have an antivirus running, you may receive a warning about it impacting the installation wizard. This typically isn't an issue, so it's fine to proceed with the antivirus enabled. 
 
-**2.** (on Windows OS) User Account Control (UAC) can interfere with the XAMPP installation because it limits writing access to the C: drive. Typically, installing the program in the root of your C:\ drive, rather than your programs folder allows XAMPP to install sucessfully, but if you receive an error message try deactivating UAC for the duration of the installation process. Instructions for turning off your UAC are provided on the <a href="https://support.microsoft.com/en-us/help/17228/windows-protect-my-pc-from-viruses#">Microsoft Windows support website.</a>
+**2.a** (on Windows OS) User Account Control (UAC) can interfere with the XAMPP installation because it limits writing access to the C: drive. Typically, installing the program in the root of your C:\ drive, rather than your programs folder allows XAMPP to install sucessfully without issue. If you find a warnig still appears, proceed to step 2.b
+
+**2.b** First, ensure that your user account has administrator privilege. 
+If the error still occurs on an admin account, try deactivating UAC for the duration of the installation process.
+<br>Instructions for turning off your UAC are provided on the <a href="https://support.microsoft.com/en-us/help/17228/windows-protect-my-pc-from-viruses#">Microsoft Windows support website.</a>
 
 **3.** When asked to select components, select "Apache", "MySQL", "PHP" and "phpMyAdmin". You're welcome to install anything else you'll make use of, but these are the base files that make XAMPP useful as a PHP development environment for dynamic and static projects. 
 
