@@ -54,15 +54,23 @@ Also verify that npm installed sucessfully by entering:
 ```npm –v```
 
 ## Quick Start
-0. Download these starter files, and place them in your newly-created web server directory. On Windows, this will be ```C:\xampp\htdocs```
+0a. Download the starter files, then place them in your newly-created web server directory. On Windows, this will be ```C:\xampp\htdocs``` 
 
-1. After downloading these base files to your system, open your preferred command line interface and cd into your project directory. <br> i.e. ``` cd C:\parent-directory\project-directory\project-folder ``` *)
+0b. Rename the folder to "PIP"
 
-2. Run ```npm install gulp-cli -g``` to ensure you have access to the gulp Command Line Interface within the project directory--this won't install gulp globally on your system, but it allows you to interact with gulp via the command line in the directory as though it's a global program. Pretty neat stuff!
+0c. Launch XAMPP, then turn on Apache in the control panel that opens.
+![xampp control panel](https://raw.githubusercontent.com/kfickle/images/master/xampp%20cntrl.PNG)
 
-3. Run the default gulp task by typing ```gulp``` into bash/terminal/command line--our task has been configured to automatically compile sass files to plan css, add vendor prefixes, minify our stylesheets, concatenate our scripts, and rerun those subtasts automatically when you save changes in the text editor.
+0d. Launch a window in your preferred browser, then enter http://localhost/PIP/ into the address bar. This should automatically open our project index page, regardless of the file extension (html, php, etc.)
 
+#### Setting up our task automation for SASS
 
-That's about it! We can always adjust our gulp task and directory structure as needed throughout the project, but to start things off our source files are located under "src" and our production files are located under "dst" 
+1. Open your preferred command line interface and cd into the project directory. <br> i.e. ``` cd C:\xampp\htdocs\PIP ```
+
+2. Run ```npm install gulp-cli -g``` to make sure the gulp Command Line Interface is active in the directory--this won't install gulp globally on your system, but it allows you to interact with gulp via the command line in the directory as though it's a global program. Pretty neat stuff!
+
+3. Run the default gulp task by typing ```gulp``` into bash/terminal/command line <br> *our task has been configured to automatically compile sass files to plan css, add vendor prefixes, minify our stylesheets, concatenate our scripts, and rerun those subtasts automatically when you save changes in the text editor.*
+
+That's about it! We can always adjust our gulp task and directory structure as needed throughout the project, but to start things off our source files are located under "src" and our production files are located under "dist" 
 
 
