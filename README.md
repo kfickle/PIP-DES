@@ -35,13 +35,13 @@ If the error still occurs on an admin account, try deactivating UAC for the dura
 #### Node Installation Tips
 
 **1.** After agreeing to the licensing agreement, the install wizard will prompt you to select the installation location. 
-*selecting the default install location is recommended on most systems*
+<br>*selecting the default install location is recommended on most systems*
 
 **2** The install wizard will allow you to select components to include or remove from the installation. 
-*Again, defaults are recommended *
+<br>*Again, defaults are recommended *
 
 **3** The install wizard will ask to install additional dependencies (python and <a href="https://chocolatey.org/packages/nodejs">chocolatey</a>) automatically.
-*Allow the wizard to install these dependendcies, unless you have a reason to install these programs and package files manually.*
+<br>*Allow the wizard to install these dependendcies, unless you have a reason to install these programs and package files manually.*
 
 
 #### Verify Node and NPM Installation
