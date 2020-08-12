@@ -1,4 +1,4 @@
-# PIP-DES
+# PIP-Resources
 
 This repository is a collection of node.js packages, starter files, and recommended software for the PIP project. 
 
