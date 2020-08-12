@@ -30,20 +30,18 @@ If the error still occurs on an admin account, try deactivating UAC for the dura
 ![xampp components to install](https://raw.githubusercontent.com/kfickle/images/34536f1bbf01ae2ea4d17a0d3634cd9df55b3514/xampp-components.PNG)
 
 ### Node.js
-<a href="https://nodejs.org/en/download/" target="_blank"> Download Node.js, v12.18.3(includes npm 6.14.6)</a>
-
-Note: If you have an older system (or a system based on 32-bit integers), you may need to opt for the 32-bit version.
+<a href="https://nodejs.org/en/download/" target="_blank"> Download Node.js, version 12.18.3 </a>(includes npm 6.14.6) 
 
 #### Node Installation Tips
 
-**1.** After agreeing to the licensing agreement, the installer will prompt you to select the installation location. 
- <br> -> *install the program in the default location, unless you have a specific reason for installing the program elsewhere.*
+**1.** After agreeing to the licensing agreement, the install wizard will prompt you to select the installation location. 
+*selecting the default install location is recommended on most systems*
 
 **2** The install wizard will allow you to select components to include or remove from the installation. 
-  <br> -> *Again, unless you have a specific need, accept the defaults.*
+*Again, defaults are recommended *
 
 **3** The install wizard will ask to install additional dependencies (python and <a href="https://chocolatey.org/packages/nodejs">chocolatey</a>) automatically.
- <br>  -> *I recommend letting the install wizard handle this. Otherwise, you'll have to install these programs and package files manually.*
+*Allow the wizard to install these dependendcies, unless you have a reason to install these programs and package files manually.*
 
 
 #### Verify Node and NPM Installation
