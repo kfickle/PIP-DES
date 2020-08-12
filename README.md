@@ -54,8 +54,9 @@ Also verify that npm installed sucessfully by entering:
 ```npm –v```
 
 ## Quick Start
+0. Download these starter files, and place them in your newly-created web server directory. On Windows, this will be ```C:\xampp\htdocs```
 
-1. After downloading these base files to your system, cd into your project directory using bash/terminal/command line. <br> i.e. ``` cd C:\parent-directory\project-directory\project-folder ``` *)
+1. After downloading these base files to your system, open your preferred command line interface and cd into your project directory. <br> i.e. ``` cd C:\parent-directory\project-directory\project-folder ``` *)
 
 2. Run ```npm install gulp-cli -g``` to ensure you have access to the gulp Command Line Interface within the project directory--this won't install gulp globally on your system, but it allows you to interact with gulp via the command line in the directory as though it's a global program. Pretty neat stuff!
 
