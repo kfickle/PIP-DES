@@ -8,10 +8,10 @@ This repository is a collection of node.js packages, starter files, and recommen
 Download <a href="https://desktop.github.com/">Github Desktop</a>
 
 ### Recommended Text Editor: Atom 
-Download the lastest version of <a href="https://atom.io/" target="_blank"> Atom text editor (v1.49.0 available for Windows/macOS/Linux)</a>
+Download the lastest version of <a href="https://atom.io/" target="_blank"> Atom</a>
 
 ### XAMPP Apache Web Server
-Download <a href="https://www.apachefriends.org/download.html"> XAMPP Version 7.3.20 / PHP 7.3.20 </a> <br> *If you use the download button for your respective platform (Linux, Windows, Mac, etc.) the site should automatically give you a compatiable install package for your operating system version.*
+Download <a href="https://www.apachefriends.org/download.html"> XAMPP Web Server </a> Version 7.3.20 / PHP 7.3.20 <br> *If you use the download button for your respective platform (Linux, Windows, Mac, etc.) the site should automatically give you a compatiable install package for your operating system version.*
 
 #### XAMPP Installation Tips
 
