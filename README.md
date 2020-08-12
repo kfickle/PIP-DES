@@ -30,7 +30,7 @@ If the error still occurs on an admin account, try deactivating UAC for the dura
 ![xampp components to install](https://raw.githubusercontent.com/kfickle/images/34536f1bbf01ae2ea4d17a0d3634cd9df55b3514/xampp-components.PNG)
 
 ### Node.js
-Get the latest *stable* release of <a href="https://nodejs.org/en/download/" target="_blank">Node.js, v12.18.3 available for Windows/macOS/Linux (includes npm 6.14.6) </a>
+<a href="https://nodejs.org/en/download/" target="_blank"> Download Node.js, v12.18.3(includes npm 6.14.6)</a>
 
 Note: If you have an older system (or a system based on 32-bit integers), you may need to opt for the 32-bit version.
 
