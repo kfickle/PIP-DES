@@ -30,49 +30,51 @@ If the error still occurs on an admin account, try deactivating UAC for the dura
 ![xampp components to install](https://raw.githubusercontent.com/kfickle/images/34536f1bbf01ae2ea4d17a0d3634cd9df55b3514/xampp-components.PNG)
 
 ### Node.js
-<a href="https://nodejs.org/en/download/" target="_blank"> Download Node.js, version 12.18.3 </a>(includes npm 6.14.6) 
+<a href="https://nodejs.org/en/download/" target="_blank"> Download Node.js, version 12.18.3 </a>(includes npm 6.14.6+) 
 
 #### Node Installation Tips
 
 **1.** After agreeing to the licensing agreement, the install wizard will prompt you to select the installation location. 
-<br>*selecting the default install location is recommended on most systems*
+<br>*Selecting the default install location is recommended on most systems*
 
 **2** The install wizard will allow you to select components to include or remove from the installation. 
-<br>*Again, defaults are recommended *
+<br>*Again, defaults are recommended*
 
 **3** The install wizard will ask to install additional dependencies (python and <a href="https://chocolatey.org/packages/nodejs">chocolatey</a>) automatically.
 <br>*Allow the wizard to install these dependendcies, unless you have a reason to install these programs and package files manually.*
 
 
 #### Verify Node and NPM Installation
-Open a command prompt (or PowerShell), and enter the following:
+Open your preferred command line interface, and enter the following:
 
 ```node –v```
 
-The system should display the Node.js version installed on your system. 
+If Node.js installed sucessfully, the system should display the Node.js version currently installed. 
 
 Also verify that npm installed sucessfully by entering:
 
 ```npm –v```
 
 ## Quick Start
-0a. Download the starter files, then place them in your newly-created web server directory. On Windows, this will be ```C:\xampp\htdocs``` 
+## Starting the Web Server 
 
-0b. Rename the folder to "PIP".
+a. Download the starter files, then place them in your newly-created web server directory. On Windows, this will be ```C:\xampp\htdocs``` 
 
-0c. Launch XAMPP, then turn on Apache in the control panel that appears on your screen.
+b. Rename the folder to "PIP".
+
+c. Launch XAMPP, then turn on Apache in the control panel that appears on your screen.
 ![xampp control panel](https://raw.githubusercontent.com/kfickle/images/master/xampp%20cntrl.PNG)
 
-0d. Open your preferred browser, then navigate to http://localhost/PIP/. This should automatically open our project index page, regardless of the file extension (html, php, etc.)
+d. In preferred web browser, navigate to http://localhost/PIP/dist. This should automatically open our project index page, regardless of the file extension (html, php, etc.)
 
-#### Setting up our task automation for SASS
+## Starting Gulp Task Automation/SASS Compile
 
-1. Open your preferred command line interface and cd into the project directory. <br> i.e. ``` cd C:\xampp\htdocs\PIP ```
+1. Open your preferred command line interface and change directory to the main project folder. <br> i.e. ``` cd C:\xampp\htdocs\PIP ```
 
-2. Run ```npm install gulp-cli -g``` to make sure the gulp Command Line Interface is active in the directory--this won't install gulp globally on your system, but it allows you to interact with gulp via the command line in the directory as though it's a global program. Pretty neat stuff!
+2. The first time you launch the Gulp task, run ```npm install gulp-cli -g``` to ensure the gulp Command Line Interface is active in the directory. 
 
-3. Run the default gulp task by typing ```gulp``` into bash/terminal/command line <br> 
+3. Start running the default gulp task(s) by entering  ```gulp``` into the command line. 
 
-That's about it! We can always adjust our gulp task and directory structure as needed throughout the project, but to start things off our source files are located under "src" and our production files are located under "dist". Our gulp task runner has been configured to automatically compile sass files into plan css, add relevant vendor prefixes, minify our stylesheets, concatenate our script files, and rerun those subtasts automatically when you save changes in the text editor.
+That's about it! The gulp task should continue running as long as you leave the cmd open, and will automatically compile sass files into plan css, add vendor prefixes, minify our stylesheets, concatenate our script files, and watch our src directory for file changes. 
 
 
