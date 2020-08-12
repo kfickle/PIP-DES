@@ -69,8 +69,8 @@ Also verify that npm installed sucessfully by entering:
 
 2. Run ```npm install gulp-cli -g``` to make sure the gulp Command Line Interface is active in the directory--this won't install gulp globally on your system, but it allows you to interact with gulp via the command line in the directory as though it's a global program. Pretty neat stuff!
 
-3. Run the default gulp task by typing ```gulp``` into bash/terminal/command line <br> *our task has been configured to automatically compile sass files to plan css, add vendor prefixes, minify our stylesheets, concatenate our scripts, and rerun those subtasts automatically when you save changes in the text editor.*
+3. Run the default gulp task by typing ```gulp``` into bash/terminal/command line <br> 
 
-That's about it! We can always adjust our gulp task and directory structure as needed throughout the project, but to start things off our source files are located under "src" and our production files are located under "dist" 
+That's about it! We can always adjust our gulp task and directory structure as needed throughout the project, but to start things off our source files are located under "src" and our production files are located under "dist". Our gulp task runner has been configured to automatically compile sass files into plan css, add relevant vendor prefixes, minify our stylesheets, concatenate our script files, and rerun those subtasts automatically when you save changes in the text editor.
 
 
