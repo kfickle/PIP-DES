@@ -39,10 +39,10 @@ Note: If you have an older system (or a system based on 32-bit integers), you ma
   <br> -> *Again, unless you have a specific need, accept the defaults.*
 
 **3** The install wizard will ask to install additional dependencies (python and <a href="https://chocolatey.org/packages/nodejs">chocolatey</a>) automatically.
- <br>  -> *I would encourage letting node handle this for you. Otherwise, you'll have to install these programs and package files manually.*
+ <br>  -> *I recommend letting the install wizard handle this. Otherwise, you'll have to install these programs and package files manually.*
 
 
-#### Verify Installation
+#### Verify Node and NPM Installation
 Open a command prompt (or PowerShell), and enter the following:
 
 ```node –v```
