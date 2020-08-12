@@ -17,13 +17,11 @@ This repository is a collection of node.js packages, starter files, and recommen
 
 **1.** If you have an antivirus running, you may receive a warning about it impacting the installation wizard. This typically isn't an issue, so it's fine to proceed with the antivirus enabled. 
 
-**2.** (on Windows OS) If the install wizard warns you about UAC permissions, proceed to the next screen. We'll correct this in step 4.
+**2.** (on Windows OS) User Account Control (UAC) can interfere with the XAMPP installation because it limits writing access to the C: drive. Typically, installing the program in the root of your C:\ drive, rather than your programs folder allows XAMPP to install sucessfully, but if you receive an error message try deactivating UAC for the duration of the installation process. Instructions for turning off your UAC are provided on the <a href="https://support.microsoft.com/en-us/help/17228/windows-protect-my-pc-from-viruses#">Microsoft Windows support website.</a>
 
 **3.** When asked to select components, select "Apache", "MySQL", "PHP" and "phpMyAdmin". You're welcome to install anything else you'll make use of, but these are the base files that make XAMPP useful as a PHP development environment for dynamic and static projects. 
 
 ![xampp components to install](https://raw.githubusercontent.com/kfickle/images/34536f1bbf01ae2ea4d17a0d3634cd9df55b3514/xampp-components.PNG)
-
-**4.** (on Windows OS, cont.) Once you're prompted to select an install location, select the root of your C:\ drive, rather than your programs folder. This should allow XAMPP to run properly without changing your UAC permissions. i.e ```C:\xampp```
 
 ### Node.js
 Get the latest *stable* release of <a href="https://nodejs.org/en/download/" target="_blank">Node.js, v12.18.3 available for Windows/macOS/Linux (includes npm 6.14.6) </a>
@@ -56,12 +54,12 @@ Also verify that npm installed sucessfully by entering:
 ## Quick Start
 0a. Download the starter files, then place them in your newly-created web server directory. On Windows, this will be ```C:\xampp\htdocs``` 
 
-0b. Rename the folder to "PIP"
+0b. Rename the folder to "PIP".
 
-0c. Launch XAMPP, then turn on Apache in the control panel that opens.
+0c. Launch XAMPP, then turn on Apache in the control panel that appears on your screen.
 ![xampp control panel](https://raw.githubusercontent.com/kfickle/images/master/xampp%20cntrl.PNG)
 
-0d. Launch a window in your preferred browser, then enter http://localhost/PIP/ into the address bar. This should automatically open our project index page, regardless of the file extension (html, php, etc.)
+0d. Open your preferred browser, then navigate to http://localhost/PIP/. This should automatically open our project index page, regardless of the file extension (html, php, etc.)
 
 #### Setting up our task automation for SASS
 
