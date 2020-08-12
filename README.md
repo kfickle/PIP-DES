@@ -23,7 +23,7 @@ This repository is a collection of node.js packages, starter files, and recommen
 
 ![xampp components to install](https://raw.githubusercontent.com/kfickle/images/34536f1bbf01ae2ea4d17a0d3634cd9df55b3514/xampp-components.PNG)
 
-**4.** (on Windows OS, cont.) Once you're prompted to select an install location, select the root of your C:\ drive, rather than your programs folder. This should correct the permissions limitations. i.e ```C:\xampp```
+**4.** (on Windows OS, cont.) Once you're prompted to select an install location, select the root of your C:\ drive, rather than your programs folder. This should allow XAMPP to run properly without changing your UAC permissions. i.e ```C:\xampp```
 
 ### Node.js
 Get the latest *stable* release of <a href="https://nodejs.org/en/download/" target="_blank">Node.js, v12.18.3 available for Windows/macOS/Linux (includes npm 6.14.6) </a>
