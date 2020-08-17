@@ -1,31 +1,31 @@
 {
-  "name": "PIP",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "PSU Student Media",
-  "license": "ISC",
-  "devDependencies": {
-    "cssnano": "^4.1.10",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2"
-  },
-  "dependencies": {},
-  "description": "This repository is a collection of node.js packages, starter files, and recommended software for the PIP project.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kfickle/PIP-DES.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kfickle/PIP-DES/issues"
-  },
-  "homepage": "https://github.com/kfickle/PIP-DES#readme"
+	"name": "PIP",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "PSU Student Media Tech",
+	"license": "ISC",
+	"devDependencies": {
+		"cssnano": "^4.1.10",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-concat": "^2.6.1",
+		"gulp-postcss": "^8.0.0",
+		"gulp-sass": "^4.1.0",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-uglify": "^3.0.2"
+	},
+	"dependencies": {},
+	"description": "",
+	"repository": {
+		"type": "",
+		"url": ""
+	},
+	"bugs": {
+		"url": ""
+	},
+	"homepage": ""
 }
