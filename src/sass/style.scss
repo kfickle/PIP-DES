@@ -1,8 +1,52 @@
 /* while our gulp task is running, it will automatically compile our sass file into pure css, will relevant vendor prefixes! The finished file is located under dst/css/style.css */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
 
-.cool-prefix-magic {
-    display: grid;
-    transition: all .5s;
-    user-select: none;
-    background: linear-gradient(to bottom, white, black);
+html {
+	height: 100%;
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+main.page-content {
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	background: color("aqua"), url("../assets/img/bg-masthead.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+main.page-content {
+	font-size: 1.25rem;
+}
+
+@media (min-width: 992px) {
+	main.page-content {
+		height: 100vh;
+		min-height: 40rem;
+		padding-top: 4.5rem;
+		padding-bottom: 0;
+	}
+
+	main.page-content p {
+		font-size: 1.15rem;
+	}
+
+	main.page-content h1 {
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	main.page-content h1 {
+		font-size: 3.5rem;
+	}
 }
