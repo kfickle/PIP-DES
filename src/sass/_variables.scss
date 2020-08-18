@@ -1,18 +1,18 @@
-// Load Google Fonts
+// Load Fonts
 
-@import url();
+@import url("https://p.typekit.net/p.css?s=1&k=vwg5iik&ht=tk&f=10884.10885.15586.15587.32874.32875&a=30125503&app=typekit&e=css");
 
-$font-main:;
+$font-main:"futura-pt", sans-serif; 
 
 // Set Color Palette Variables
 
-$light-teal: 	#00C1B9;
-$dark-purple: 	#2C1449;
-$blue-purple:	#4D1598;
+$light-teal: #00C1B9;
+$dark-purple: #2C1449;
+$blue-purple: #4D1598;
 
 // medium-purple is the color used as various shades to create the background color for sections of the site. Reference "Jobs/Volunteer", "Services", and "Deals" nav items on the homepage mockup for usage examples.
 
 $medium-purple: #6C18A5;
-$dark-magenta: 	#CB20CB;
-$white:			#fff;
-$silver: 		#B1B1B1;
+$dark-magenta: #CB20CB;
+$white: #fff;
+$silver: #B1B1B1;

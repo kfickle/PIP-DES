@@ -1,0 +1,38 @@
+html {
+	height: 100%;
+	line-height: 1.15;
+	
+	//fallback scroll behavior modification still needed for IOS and Safari; 8/18/20
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: $light-teal;
+}
+
+// -------------- Subpage Styles -------------- 
+
+main.page-content {
+	margin: 0;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+main.page-content {
+	font-size: 1rem;
+}
+
+// pattern styles  -------
+
+
+
+// -------------- Media Queries -------------- 
+
+@media (min-width: 992px) {
+	main.page-content {
+		height: 100vh;
+		padding-top: 4.5rem;
+		padding-bottom: 0;
+	}
+
+}
