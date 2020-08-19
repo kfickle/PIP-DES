@@ -6,9 +6,7 @@
 	// set the value of each empty string to page-specific meta content for each subpage
 
     $pagetitle = "";
-    $metadescription = "";
-    $metakeywords = "";
-
+ 
 	// call include files
 
     include_once './includes/head.php';
