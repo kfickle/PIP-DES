@@ -1,13 +1,13 @@
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
 	<title>
 		<?php echo $pagetitle; ?>
 	</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="<?php echo $metadescription; ?>">
-	<meta name="author" content="<?php echo $authorname; ?>">
+	<meta name="author" content="PSU Student Media Tech">
 	<meta name="keywords" content="<?php echo $metakeywords; ?>">
 	<link rel="icon" type="image/png">
 

@@ -12,8 +12,12 @@ body {
 
 // -------------- Subpage Styles -------------- 
 
+// structure ------
+
 main.page-content {
 	margin: 0;
+	height:100%;
+	min-height: 100vh;
 	padding-top: 10rem;
 	padding-bottom: 10rem;
 }
@@ -24,15 +28,32 @@ main.page-content {
 
 // pattern styles  -------
 
+.sg {
+    background-image: url(../assets/patterns/img/SG.jpg);
+    background-repeat: repeat;
+    background-size: 50vw;
+    margin: 0;
+    height: 400px;
+    box-sizing: border-box;
+    -webkit-animation: slide 30s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+
+}
 
 
 // -------------- Media Queries -------------- 
 
-@media (min-width: 992px) {
+@media (min-device-width: 800px) {
 	main.page-content {
-		height: 100vh;
 		padding-top: 4.5rem;
 		padding-bottom: 0;
 	}
+	
+// resizes pattern size on larger devices
+	.sg {
+   
+    background-size: 25vw;
+}
 
 }
