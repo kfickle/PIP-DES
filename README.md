@@ -11,7 +11,7 @@ This repository is a collection of node.js packages, starter files, and recommen
 <a href="https://atom.io/" target="_blank"> Download the lastest version of Atom</a>
 
 ### XAMPP Apache Web Server
-<a href="https://www.apachefriends.org/download.html"> Download XAMPP Web Server </a> Version 7.3.20 / PHP 7.3.20 
+<a href="https://www.apachefriends.org/download.html"> Download XAMPP Web Server </a> Version 7.3.2# / PHP 7.3.2# 
 
 *If you use the download button for your respective platform (Linux, Windows, Mac, etc.) the site should automatically give you a compatiable install package for your operating system version.*
 
